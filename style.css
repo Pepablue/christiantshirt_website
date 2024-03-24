@@ -1,0 +1,131 @@
+#faqbutton{/*don't touch the any #faqbutton*/
+    margin-top:5px;
+    margin-left:77%;
+    padding:10px 20px;
+    width:300px;
+    background-color:#fff;
+    border:none;
+    color:black;
+    border-radius:50px;
+    box-shadow:0 0 10px 5px rgba( 92, 162, 173, 0.5);
+    font-family:Geneva,Verdana,sans-serif;
+    font-weight:bold;
+    font-size:16px;
+    position:absolute;
+    top:20px;
+    right:20px;
+    overflow:hidden;
+}
+#faqbutton:before,#faqbutton:after {
+    content:'';
+    position:absolute;
+    background-color:#fff;
+    border-radius:50%;
+}
+#faqbutton:before {
+  width: 50px;
+  height: 50px;
+  left: -20px;
+  top: -20px;
+}
+#faqbutton:after {
+  width: 60px;
+  height: 60px;
+  right: -20px;
+  bottom: -20px;
+}
+/*if one part of your css is wrong,the rest after will be ignored*/
+#heading {
+   margin-top: 90px;
+   padding:0px auto;
+   background-color: #333;
+   /*border-radius: 10px;
+   box-shadow: 0 0 10px 10px rgba(92, 162, 173, 0.5);*/
+   text-align:center;
+   border-bottom:12px solid #33f;
+}
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #333;
+            color:;
+            overflow:scroll ; /* Hide overflowing content */
+            font-size:medium;
+            border:;
+        }
+
+#heading h1{
+    color:#89ffff;
+    font-style:oblique;
+    font-weight:bold;
+    border:;
+    margin:0px auto;
+}
+p.slogan {
+    font-weight:bold;
+    line-height:30px;
+    color:black;
+}
+#product-container {
+    text-align:center;
+    margin:0px;
+    padding:0px 0px;
+    border:;
+    /*box-shadow:0 0 10px 10px rgba(207,207,162,0.5);*/
+    background-color:#333;
+    width:100%;
+    height:;
+    border-radius:;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+
+}
+.shirtbox{
+  padding:0 0 100px 0;
+  margin:20px;
+  width:300px;
+  height:300px;
+  border:2px outset #fff;
+  border-radius:50px;
+  box-shadow:0 0 5px 5px rgba(207,207,162,0.5);
+}
+.shirtbox img{
+  width:300px;
+  height:290px;
+  padding:0%;
+  margin:auto;
+  border:;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+}
+a:link{
+  color:black;
+  text-decoration:none;
+}
+a:hover{
+  color:#89ffff;
+}
+a:visited{
+  color:#333;
+}
+a:focus{
+  color:purple;
+}
+/*.check-these-out{
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:150%;
+    color:red;
+}
+*{
+  box-sizing:border-box;
+  width:50%;
+  max-width:350px;
+  height:350px;
+}*/
+

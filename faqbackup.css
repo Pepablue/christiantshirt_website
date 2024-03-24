@@ -1,0 +1,68 @@
+body{
+    font-family:Verdana,Arial,Geneva,sans-serif;
+    font-size:large;
+    line-height:1.6em;
+    margin-right:500px;
+    margin-top:200px;
+}
+h1{
+    text-align:left;
+    font-family:"Last Ninja",Impact,fantasy;
+    font-size:150%;
+    color:#007e7e;
+}
+h2,h3{
+    font-size:150%;
+    color:#007e7e;
+}
+
+
+.othermatters{
+    margin-top:-59.5%;
+    margin-left:105%;
+    margin-right:;
+    border:6px solid #000123;
+    padding:6%;
+    text-align:center;
+    position:;
+    width:330px;
+}
+.othermatters h2 {
+    text-decoration:none;
+    font-style:oblique;
+    font-weight:bold;
+    color:#000123;
+    font-size:250%;
+    line-height:50px;
+}
+.christiandream{
+    border:;
+    background-color:#afd8d8;
+    padding:2px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(92, 162, 173, 0.5);
+}
+.faqimage{
+    position:absolute;
+    top:-15%;
+    left:-18%;
+    max-width:800px;
+    max-height:800px;
+    height:auto;
+}
+.faqimage1{
+    max-width:800px;
+    max-height:800px;
+    position:absolute;
+    top:-6%;
+    right:-15%;
+}
+.materialimage{
+    max-width:250px;
+    max-height:250px;
+    position:;
+}
+/*
+.letter{
+    margin-top:150px;
+}
