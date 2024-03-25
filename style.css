@@ -103,7 +103,7 @@ p.slogan {
   border-bottom-right-radius:0px;
 }
 a:link{
-  color:black;
+  color:#000;
   text-decoration:none;
 }
 a:hover{
